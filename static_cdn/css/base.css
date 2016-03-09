@@ -1,0 +1,13 @@
+
+h1{
+	color: #777777;
+}
+.tdStyle
+{
+background:url('{{ STATIC_URL }}img/test.JPG');
+color:green;
+}
+body {
+	background:url('../img/image2.JPG');
+	color:white;
+}

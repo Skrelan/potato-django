@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{%block head_title %}
+	{{ instance.id }}.{{instance.title}} | {{block.super}
+{% endblock head_title %}
+
+<style>
+{% block style %}
+h1{
+	color:#77777;
+}
+{% endblock style%}
+</style>
+
+{% block content %}
+
+    	
+	<p></p>
+	{{ instance.content }} <br/> <br/>
+	{{ instance.timestamp }} <br/>
+	{{ instance.updated }} <br/> <br/>
+<a href="../{{instance.id}}/edit">Edit</a>  <a href="../{{instance.id}}/delete">Delete</a>
+				<hr/>
+<a href="../">Back</a>
+{% endblock content %}

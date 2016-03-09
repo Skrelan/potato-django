@@ -1,0 +1,16 @@
+
+h1{
+	color:cornflowerblue;
+}
+.tdStyle
+{
+background:url('{{ STATIC_URL }}img/test.JPG');
+color:cornsilk;
+}
+a{
+	color:cornflowerblue
+}
+body {
+	background:url('../img/image2.JPG');
+	color:white;
+}

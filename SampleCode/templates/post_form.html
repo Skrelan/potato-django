@@ -1,0 +1,10 @@
+
+{% extends "base.html"%} <!-- base.html is the parent, the block below will be added to it -->
+	{%block content %}
+	{{block.super }} <!-- this will be used in creating comments -->
+	<h1>Form</h1>
+	<form method="POST" action =''>{% csrf_token %}
+	{{ form.as_p }}
+	<input type='submit' value='Create Post'/>
+	</form>
+     {%endblock content %}
