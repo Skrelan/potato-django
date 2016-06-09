@@ -1,6 +1,6 @@
 _Please note this repo contains code that has been **used only for testing purposes** and has **not** been tested for deployment on a Server._
 
-_It is **test code** and must be treated as so._
+_It is **test code** used for understanding a few minor basic use-cases and must be treated as so._
 
 ---
 ##open cmd and type:
