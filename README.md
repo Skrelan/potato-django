@@ -1,14 +1,15 @@
 Please note this repo contains code that has been used only for testing purposes and has not been tested for deployment on a Server.
 It is **test code** and must be treated as so.
 ---
-#open cmd and type: 
->.\Scripts\activate
->cd SampleCode
->python manage.py runserver 127.0.0.1:8000
-#open a web browser and type:
+##open cmd and type:
+1. .\Scripts\activate
+2. cd SampleCode
+3. python manage.py runserver (127.0.0.1:8000)
+
+##open a web browser and type:
 >127.0.0.1:8000/posts
-#There are 4 functions:
->List: displays all the blogs
->Update : Updates the blog
->Create : Creates a new Blog
->Delete : Deletes a Blog
+##There are 4 functions:
+1. List: displays all the blogs
+2. Update : Updates the blog
+3. Create : Creates a new Blog
+4. Delete : Deletes a Blog
